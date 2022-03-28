@@ -45,6 +45,9 @@ function Banner (){
             </div>
             <h1 className="banner__description">{truncate(movie?.overview, 150)}</h1>
         </div>
+
+         {/* for styling linear gradient at the bottom of the banner*/} 
+        <div className="banner--fadeBottom"></div>
         
         </header>
     )
